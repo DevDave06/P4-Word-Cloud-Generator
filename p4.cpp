@@ -41,4 +41,5 @@ class minHeap{
 };
 
 int main(void){
+    cout<<"hello world"<<endl;
 }
