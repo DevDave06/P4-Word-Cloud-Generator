@@ -19,6 +19,6 @@ class TrieNode{
     }
 };
 
-int main(void){
+int main(){
 
 }
