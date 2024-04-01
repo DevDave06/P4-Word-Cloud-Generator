@@ -31,7 +31,7 @@ class minHeapNode{
 };
 class minHeap{
     minHeapNode* toStore;
-    int size;//number of slots filled
+    int size;
     int minHeapCapacity;
     minHeap(){
         toStore=nullptr;
@@ -41,4 +41,5 @@ class minHeap{
 };
 
 int main(void){
+    cout<<"hello world"<<endl; 
 }
