@@ -20,5 +20,4 @@ class TrieNode{
 };
 
 int main(void){
-    TrieNode T1('A'); 
 }
