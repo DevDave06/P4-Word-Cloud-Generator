@@ -18,6 +18,27 @@ class TrieNode{
         hasEnded = false;
     }
 };
+class minHeapNode{
+    public:
+    TrieNode* root;
+    int freq;
+    char* word;
+    minHeapNode(){
+        root=nullptr;
+        freq=0;
+        word='\0';
+    }
+};
+class minHeap{
+    minHeapNode* toStore;
+    int size;//number of slots filled
+    int minHeapCapacity;
+    minHeap(){
+        toStore=nullptr;
+        size=0;
+        minHeapCapacity=1000;
+    }
+};
 
 int main(void){
 }
